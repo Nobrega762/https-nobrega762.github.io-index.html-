@@ -1,0 +1,136 @@
+*{box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    }
+
+    body{
+        background-image:url("imagens/nature1.jpg" );
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: rgba(0, 0, 0, 0.349);
+        background-blend-mode: darken;
+       
+}
+
+.cabecalho-detalhe{
+   
+    background-color: rgba(0, 0, 0, 0.555);
+    height: 10%;
+}
+
+.cabecalho{
+    display: inline-block;
+   padding: 15px;
+   margin-left: 50%;
+   list-style-type: none;
+   
+   
+    
+}
+.cabecalho-item{
+    display: inline-block;
+    margin: 10px;
+    font-size: 23px;
+    color: white;
+    text-decoration: none;
+   
+}
+ 
+.conteudo-principal{
+    display: inline-block;
+    font-size: 50px;
+    color: white;
+    margin-top: 250px;
+    margin-left: 820px;
+    
+    
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+.start{
+   display: inline-block;
+    color: rgb(255, 255, 255);
+    border: solid  rgb(255, 255, 255) 1px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.733);
+    border-radius: 30px;
+    font-size:40px;
+    margin-top: 70px;
+    margin-left: 890px;
+    
+
+}
+
+a:hover{
+    color: darkgray;
+    transition-duration: 1s;
+
+
+}
+
+
+.back-rodape{
+    display: inline-block;
+    background: rgba(0, 0, 0, 0.555);
+    margin-top: 100px;
+    width: 1348px;
+    height: 400px;
+    
+}
+
+.conteudo-secundario{
+    display: inline-block;
+    color: white;
+    font-size: 70px;
+    padding: 1%;
+    border: 2px transparent black;
+    width: 90%;
+    margin-top: 10%;
+    margin-left: 4%;
+    
+}
+
+.conteudo-latim{
+    font-size: 50px;
+    margin-left:4%;
+    color: rgba(255, 255, 255, 0.596);
+}
+
+.bloco-botoes{
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 5%;
+    font-size: 20px;
+    margin-top: 3%;
+    padding: 4px;
+}
+
+.botoes{
+   
+    color: white;
+    border: 3px solid white;
+    background: rgba(0, 0, 0, 0.192);
+    padding: 15px;
+    width: 5%;
+}
+
+.logo{
+    display: inline-block;
+    height: 70%;
+    border-radius: 70%;
+    margin-left: 10%;
+    padding-top: 1%;
+    
+}
+
+.Grand{
+    display: inline-block;
+    font-size: 250%;
+    color: blanchedalmond;
+    margin-left: 4%;
+    
+}
